@@ -1,0 +1,19 @@
+{
+  "name": "BlockWebsite",
+  "description": "Increase your productivity by blocking unwanted websites",
+  "version": "3.4",
+  "permissions": [
+     "webRequestBlocking",
+     "webRequest",
+     "activeTab",
+     "tabs",
+     "http://*/*",
+     "https://*/*"
+  ],
+  "background" : {
+    "scripts":  [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2
+}
